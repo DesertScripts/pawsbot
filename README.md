@@ -1,4 +1,4 @@
-# 🥇NEW PAWS AUTOFARM BOT🥇
+# 🥇NEW PAWS BOT🥇
 
 [![Static Badge](https://img.shields.io/badge/Telegram-Channel-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/+9j5RcKMfT5s4M2Q0)
 
@@ -13,7 +13,9 @@
 | Multithread                    |     ✅     |
 | Proxy.txt support              |     ✅     |
 | REF ID support                 |     ✅     |
-| Auto-task                      |     ✅     |
+| Auto connect wallet            |     ✅     |
+| Auto task                      |     ✅     |
+| Ban protection                 |     ✅     |
 | Auto-connecting wallet         |     ✅     |
 | Auto-Joining channels          |     ✅     |
 | Pyrogram .session support      |     ✅     |
@@ -28,13 +30,27 @@
 | START_DELAY            |           Delay between sessions at start (by default - [5, 25])            |
 | AUTO_TASK              |               Completing all avaliable tasks (default - True)               |
 | RANDOM_DELAY_IN_RUN    |              Delay before starting the script(default - [30, 60]            |
-| ACC_STATS              |           Shows stats of your acc before every launch (default - True)      |
-| USE_PROXY_FROM_FILE    |                Auto binding your proxy to sessions(default - True           |
+| ACC_STATS              |           Shows stats of your accs before every launch (default - True)     |
+| BAN_PROTECTION         |                   Enable ban protection (default - True)                    |
+| USE_PROXY_FROM_FILE    |                Auto binding your proxy to sessions(default - True)          |
+| CONNECT_WALLETS        |                  Auto connects wallet from .json file(default - True)       |
 | NIGHT_MODE             |                   Sleeping during night(default - True)                     |
 | NIGHT_TIME             |                   Sleeping time(default - (0, 7)                            |
 | JOIN_TG_CHANNELS       |              Join channels for tasks(UNSAFE) (default - False)              |
 | USE_REF                |                   Use ref link or not(default - True)                       |
 | REF_ID                 |                 Your ref id(goes after ?starttapp=)                         |
+
+
+# Wallet connect
+To connect your wallets, put them to bot/config/wallets.json in this format
+```shell
+{
+  "Wallet address": "your wallet address"
+},
+{
+  "Wallet address1": "your wallet address"
+}
+```
 
 
 

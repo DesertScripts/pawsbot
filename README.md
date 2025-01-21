@@ -53,8 +53,8 @@
 
 # Installation💨
 ```shell
-git clone https://github.com/DesertScripts/notpixelbot.git
-cd notpixelbot
+git clone https://github.com/DesertScripts/pawsbot.git
+cd pawsbot
 run.bat
 ```
 

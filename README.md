@@ -1,4 +1,4 @@
-# 🥇NEW NOTPIXEL AUTOFARM BOT🥇
+# 🥇NEW PAWS BOT🥇
 
 [![Static Badge](https://img.shields.io/badge/Telegram-Channel-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/+9j5RcKMfT5s4M2Q0)
 
@@ -13,36 +13,23 @@
 | Multithread                    |     ✅     |
 | Proxy.txt support              |     ✅     |
 | REF ID support                 |     ✅     |
-| Auto-paint                     |     ✅     |
-| Auto-watch ads(NEW)            |     ✅     |
-| Auto-upgrade support           |     ✅     |
-| Template management            |     ✅     |
-| Auto-code enter                |     ✅     |
-| Reward claiming                |     ✅     |
+| Auto-task                      |     ✅     |
+| Auto-connecting wallet         |     ✅     |
 | Auto-Joining channels          |     ✅     |
 | Pyrogram .session support      |     ✅     |
 | Stats on your accounts         |     ✅     |
-| Night mode                     |     ✅     |
 
 # Settings(.env)
 
 | Settings                   |                                 Description                                 |
 |----------------------------|:---------------------------------------------------------------------------:|
-| API_ID / API_HASH      | Your API ID/ API HASH                                                       |
+| API_ID / API_HASH      |                      Your API ID/ API HASH                                  |
 | SLEEP_TIME             |            Sleep time between cycles (by default - [3600, 7200])            |
 | START_DELAY            |           Delay between sessions at start (by default - [5, 25])            |
 | AUTO_TASK              |               Completing all avaliable tasks (default - True)               |
-| RANDOM_DELAY_IN_RUN    |          Delay before starting the script(default - [30, 60]                |
-| CLAIM_REWARD           |                     Collecting rewards (default - True)                     |
-| AUTO_BUY_MINE          |                    Auto purchase mines (default - True)                     |
-| WATCH_ADS              |                    Auto watch ads (default - True)                          |
-| AUTO_UPGRADE           |                     Auto upgrading (default - True)                         |
-| UPGRADE_MINERS         |                    Auto upgrading miners (default - True)                   |
-| AUTO_DRAW              |                   Auto draw on selected template (default - True)           |
-| ENTER_CODE             |                     Auto enter selected code (default - True)               |
-| NIGHT_MODE             |                   Anit ban system (default - True)                          |
-| NIGHT_TIME             |                Sleepint time (default - [0, 7])                             |
-| USE_PROXY              |                Auto binding your proxy to sessions                          |
+| RANDOM_DELAY_IN_RUN    |              Delay before starting the script(default - [30, 60]            |
+| ACC_STATS              |           Shows stats of your acc before every launch (default - True)      |
+| USE_PROXY_FROM_FILE    |                Auto binding your proxy to sessions(default - True           |
 | NIGHT_MODE             |                   Sleeping during night(default - True)                     |
 | NIGHT_TIME             |                   Sleeping time(default - (0, 7)                            |
 | JOIN_TG_CHANNELS       |              Join channels for tasks(UNSAFE) (default - False)              |
@@ -51,14 +38,12 @@
 
 
 
-# Installation💨
+# Installation🥜
 ```shell
 git clone https://github.com/DesertScripts/pawsbot.git
 cd pawsbot
 run.bat
 ```
-
-
 
 
 ## Don't forget to put stars, it supports me a lot⭐
